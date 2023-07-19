@@ -1,0 +1,46 @@
+{
+  "id": "kimetsu",
+  "title": "Kimetsu no Yaiba RPG",
+  "description": "Sistema não oficial de Kitmetsu no Yaiba.",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": 11,
+    "verified": 11.305,
+    "maximum": 11
+  },
+  "authors": [
+    {
+      "name": "Cryover",
+      "url": "https://github.com/Cryover/Kimetsu-no-yaiba",
+      "email": "jonatan784@gmail.com",
+      "discord": "Cryover#9281"
+    }
+  ],
+  "relationships": {
+    "systems": [],
+    "requires": []
+  },
+  "esmodules": [
+    "/scripts/knyrpg.js"
+  ],
+  "styles": [
+    "/css/knyrpg.css"
+  ],
+  "languages": [
+    {
+      "lang": "pt-br",
+      "name": "Brazilian Portuguese",
+      "path": "lang/pt-br.json",
+      "flags": {}
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/Cryover/Kimetsu-no-yaiba",
+  "manifest": "https://github.com/Cryover/releases/latest/download/system.json",
+  "download": "https://github.com/Cryover/releases/latest/download/knyrpg.zip"
+}

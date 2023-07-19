@@ -1,0 +1,130 @@
+{
+	"Actor": {
+		"types": ["character", "npc", "loot"],
+		"templates": {
+			"attributeTemplate": {
+				"attributes": {
+					"base": {
+						"vid":{
+							"min": 0,
+							"value": 0,
+							"max": 0
+						},
+						"for":{
+							"min": 0,
+							"value": 0,
+							"max": 0
+						},
+						"des":{
+							"min": 0,
+							"value": 0,
+							"max": 0
+						},
+						"int":{
+							"min": 0,
+							"value": 0,
+							"max": 0
+						},
+						"sab":{
+							"min": 0,
+							"value": 0,
+							"max": 0
+						},
+						"car":{
+							"min": 0,
+							"value": 0,
+							"max": 0
+						},
+						"von":{
+							"min": 0,
+							"value": 0,
+							"max": 0
+						}
+					},
+					"derived": {
+						"adr":{
+							"min": 0,
+							"value": 0,
+							"max": 0
+						},
+						"mob":{
+							"min": 0,
+							"value": 0,
+							"max": 0
+						},
+						"car":{
+							"min": 0,
+							"value": 0,
+							"max": 0
+						},
+						"cha":{
+							"min": 0,
+							"value": 0,
+							"max": 0
+						},
+						"tou":{
+							"min": 0,
+							"value": 0,
+							"max": 0
+						},
+						"sdb":{
+							"min": 0,
+							"value": 0,
+							"max": 0
+						},
+						"grt":{
+							"min": 0,
+							"value": 0,
+							"max": 0
+						}
+					}
+				}
+			},
+			"combatTemplate": {
+				
+			}
+		},
+		"character": {
+			"templates": ["attributeTemplate"]
+		},
+		"npc": {
+			"templates": ["attributeTemplate"]
+		}
+	},
+	"Item": {
+		"types": ["weapon","armor"],
+		"templates": {
+			"common": {
+				"wt":0,
+				"value":0
+			}
+		},
+		"weapon": {
+			"templates": ["common"],
+			"attackWith": "swords",
+			"name":"",
+			"types":[],
+			"hands":0,
+			"reach":"",
+			"swing": {
+				"tn":0,
+				"bonus":0,
+				"dmgtype":""
+			},
+			"thrust":{
+				"tn":0,
+				"bonus":0,
+				"dmgtype":""
+			},
+			"defguard":{
+				"tn":0,
+				"guard":0
+			}
+		},
+		"armor": {
+			"templates": ["common"],
+			"ca":0,
+			"bonus":0
+		}
+	}
+}
