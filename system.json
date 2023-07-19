@@ -2,85 +2,23 @@
   "id": "kimetsu",
   "title": "Kimetsu no Yaiba RPG",
   "description": "Sistema não oficial de Kitmetsu no Yaiba.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "compatibility": {
-    "minimum": 11,
-    "verified": 11.305,
-    "maximum": 11
+    "minimum": "10",
+    "verified": "11"
   },
   "authors": [
     {
       "name": "Cryover",
-      "url": "https://github.com/Cryover/Kimetsu-no-yaiba",
-      "email": "jonatan784@gmail.com",
-      "discord": "Cryover#9281"
-    }
-  ],
-  "relationships": {
-    "systems": [],
-    "requires": []
-  },
-  "esmodules": [
-    "/scripts/knyrpg.js"
-  ],
-  "styles": [
-    "/css/knyrpg.css"
-  ],
-  "languages": [
-    {
-      "lang": "pt-br",
-      "name": "Brazilian Portuguese",
-      "path": "lang/pt-br.json",
-      "flags": {}
-    },
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json",
+      "url": "https://github.com/Cryover",
       "flags": {}
     }
   ],
-  "packs": [{
-    "name": "onis",
-    "label": "Onis",
-    "system": "some-system",
-    "type": "Actor",
-    "path": "packs/monsters"
-  }],
-  "url": "https://github.com/Cryover/Kimetsu-no-yaiba",
-  "manifest": "https://github.com/Cryover/releases/latest/download/system.json",
-  "download": "https://github.com/Cryover/releases/latest/download/knyrpg.zip"
-}
-// ----------------------------
-
-{
-  "id": "mysystem",
-  "title": "Minimal World Building",
-  "description": "A human-readable description of your system.",
-  "version": "1.0.0",
-  "compatibility": {
-    "minimum": "10",
-    "verified": "11",
-    "maximum": "11"
-  },
-  "authors": [
-    {
-      "name": "me",
-      "url": "YOUR WEBSITE ADDRESS HERE",
-	  "email": "YOUR EMAIL ADDRESS HERE",
-	  "discord": "YOUR DISCORD USERNAME HERE"
-    }
-  ],
-  "scripts": [
-    "scripts/system-script-1.js",
-    "scripts/system-script-2.js"
-  ],
   "esmodules": [
-    "scripts/system-module-1.mjs"
+    "scripts/kimetsu.mjs"
   ],
   "styles": [
-    "styles/system-styles-1.css",
-    "styles/system-styles-2.css"
+    "styles/kimetsu.css"
   ],
   "packs": [
     {
@@ -109,6 +47,6 @@
   "secondaryTokenAttribute": "resources.power",
   "url": "https://github.com/Cryover/Kimetsu-no-yaiba",
   "background": "systems/mysystem/assets/splash.webp",
-  "manifest": "https://github.com/Cryover/Kimetsu-no-yaiba/blob/main/system.json",
-  "download": "https://your/packaged/download/archive.zip"
+  "manifest": "https://github.com/Cryover/Kimetsu-no-yaiba/raw/main/system.json",
+  "download": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.2.2/dnd5e-release-2.2.2.zip"
 }
