@@ -20,18 +20,7 @@
   "styles": [
     "styles/kimetsu.css"
   ],
-  "packs": [
-    {
-      "name": "monsters",
-      "label": "My Monsters",
-      "type": "Actor"
-    },
-    {
-      "name": "items",
-      "label": "My Items",
-      "type": "Item"
-    }
-  ],
+  "packs": [],
 "languages": [
     {
       "lang": "en",
